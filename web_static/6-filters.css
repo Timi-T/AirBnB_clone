@@ -1,13 +1,17 @@
 .container{
+    position: relative;
     display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 1000px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .filters{
+    position: relative;
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -37,9 +41,10 @@ button:hover{
 }
 
 .locations{
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: center;
     height: 100%;
     width: 25%;
     border-right: 1px;
@@ -51,9 +56,10 @@ button:hover{
 }
 
 .amenities{
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: center;
     height: 100%;
     width: 25%;
 }
@@ -68,4 +74,43 @@ button:hover{
     margin-top: 0;
     font-weight: 400;
     font-size: 14px;
+    margin-bottom: 0;
+}
+
+.popover{
+    display: none;
+    position: absolute;
+    top: 100%;
+    min-width: 100%;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.locations:hover .popover{
+    display: block;
+}
+
+.amenities:hover .popover{
+    display: block;
+}
+
+.state_name{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.city{
+    position: relative;
+    text-align: center;
+}
+
+.city_name{
+    position: relative;
+    list-style: none;
+    text-align: center;
 }
