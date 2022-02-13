@@ -6,7 +6,7 @@ div.header{
     border-bottom-style: solid;
     border-width: 1px;
     border-color: #CCCCCC;
-    background-image: url(/web_static/images/logo.png);
+    background-image: url(/AirBnB_clone/web_static/images/logo.png);
     background-repeat: no-repeat;
     background-position-x: 20px;
 }
