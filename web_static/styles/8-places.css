@@ -56,7 +56,7 @@ h2.p_name{
 
 .max_guest{
     position: relative;
-    background-image: url(images/icon_group.png);
+    background-image: url(/web_static/images/icon_group.png);
     width: 100px;
     height: 100%;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@ h2.p_name{
 
 .number_rooms{
     position: relative;
-    background-image: url(images/icon_bed.png);
+    background-image: url(/web_static/images/icon_bed.png);
     width: 100px;
     height: 100%;
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@ h2.p_name{
 
 .number_bathrooms{
     position: relative;
-    background-image: url(images/icon_bath.png);
+    background-image: url(/web_static/images/icon_bath.png);
     width: 100px;
     height: 100%;
     background-repeat: no-repeat;
